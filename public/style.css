@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,82,82,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+nav {
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+
+a {
+    color: aqua;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.container {
+    margin: auto;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.images {
+    height: 220px;
+    position: relative;
+    border: 1px solid black;
+}
+
+#home-image {
+    position: relative;
+}
+
+#imgg {
+    position: absolute;
+    right: 37vw;
+}
+
+#paragraph {
+    justify-content: left;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+
+#big-image {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+}
